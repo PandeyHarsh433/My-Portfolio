@@ -1,13 +1,287 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.greet {
+  background-image: radial-gradient(circle farthest-side, #fceabb, #f8b500);
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.introContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 30vh;
+}
+.introContainer div:nth-child(1) {
+  font-size: 4rem;
+  padding-left: 2rem;
+}
+.introContainer div:nth-child(2) {
+  font-size: 2rem;
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+}
+.imgContainer {
+  margin-right: 10rem;
+  margin-bottom: 5rem;
+}
+@media screen and (max-width: 400px) {
+  .greet {
+    flex-direction: column;
+    width: 200%;
+    padding-top: 10rem;
+    padding-bottom: 80rem;
+  }
+  .introContainer div {
+    padding-bottom: 4rem;
+  }
+  .imgContainer {
+    padding-top: 8rem;
+    padding-left: 7rem;
+  }
+  .imgContainer img {
+    scale: 1.7;
+  }
+}
+.both {
+  background-image: radial-gradient(circle farthest-side, #fceabb, #f8b500);
+}
+.aboutMe {
+  display: flex;
+  height: 100vh;
+  justify-content: space-between;
+  padding-top: 2rem;
+}
+.skillHead {
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding-right: 1.5rem;
+  padding-top: 1rem;
+}
+.skillList {
+  font-size: large;
+}
+.education {
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
+.educationContainer {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.skillsNToolsContainer {
+  height: 60vh;
+  width: 55rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  margin-top: 7rem;
+}
+.skills {
+  padding-top: 1rem;
+  display: flex;
+  align-items: center;
+}
+.skills span {
+  padding-right: 1rem;
+}
+.skillHeading {
+  font-size: 2rem;
+}
+.downloadCV {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+.educationHead {
+  font-size: 3rem;
+}
+.toolHead {
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 400px) {
+  .both {
+    width: 200%;
+  }
+  .aboutMe {
+    flex-direction: column;
+  }
+  .educationHead {
+    font-size: 4rem;
+    margin-left: 12rem;
+    margin-top: -2rem;
+    padding-bottom: 2rem;
+    font-weight: 600;
+  }
+  .educationDetail {
+    width: 80rem;
+  }
+  .skillHead {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  .skillList {
+    font-size: 1.5rem;
+    padding-right: 6rem;
+  }
+  .skillsNToolsContainer {
+    flex-direction: column;
+    padding-top: 25rem;
+  }
+  .skillHeading {
+    padding-left: 1rem;
+    margin-left: 17rem;
+    font-size: 4rem;
+  }
+  .skillsContainer {
+    padding-top: 1.5rem;
+    padding-bottom: 8rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .listing {
+    font-size: 1.5rem;
+  }
+  .skills {
+    padding-top: 2rem;
+    padding-left: 1rem;
+  }
+  .toolHead {
+    font-size: 4rem;
+    margin-left: 17rem;
+    padding-left: 1rem;
+  }
+  .toolsContainer {
+    padding-top: 3rem;
+    display: grid;
+    padding-bottom: 8rem;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .downloadCV {
+    padding-top: 50rem;
+    margin-bottom: 3rem;
+  }
+  .downloadCV a {
+    font-size: 2rem;
+    padding: 1rem;
+    width: 100%;
+  }
+}
+
+.projectImg {
+  width: 85%;
+}
+.mainProjectContainer {
+  height: 90vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.firstHalf {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.secondHalf {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.both2 {
+  background-image: radial-gradient(circle farthest-side, #fceabb, #f8b500);
+  padding-top: 5rem;
+}
+.projectImg {
+  padding-bottom: 2rem;
+  padding-left: 4rem;
+  cursor: pointer;
+}
+.projectHead {
+  font-size: 3rem;
+}
+
+@media screen and (max-width: 400px) {
+  .both2 {
+    width: 200%;
+  }
+  .projectHead {
+    font-size: 4rem;
+    margin-left: 8rem;
+  }
+  .mainProjectContainer {
+    padding-top: 58rem;
+    flex-direction: column;
+  }
+  .projectImg {
+    width: 95%;
+    padding-left: 3rem;
+  }
+  .projectImg a>img{
+    border-radius: 10px;
+  }
+}
+.contactContainer {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-image: radial-gradient(circle farthest-side, #fceabb, #f8b500);
+}
+.contactHead {
+  font-size: 2.5rem;
+  padding-top: 10rem;
+}
+.contactHead h2 {
+  padding-left: 3rem;
+}
+.contactInput input {
+  padding: 1rem;
+  margin-bottom: 2rem;
+  width: 21rem;
+  border-radius: 0.3rem;
+  border: 1px solid rgb(149, 134, 134);
+}
+.contactInput {
+  margin-left: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contactInput input::placeholder {
+  font-size: 1rem;
+}
+.sendBlock {
+  display: flex;
+  align-items: center;
+  border: 1px solid gray;
+  padding: 0.3rem 0.4rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.sendBlock:hover {
+  background-color: #edcb6b;
+}
+
+@media screen and (max-width:400px) {
+    .contactContainer {
+        padding-top: 40rem;
+        width: 200%;
+        height: 120%;
+    }
+    .contactInput input {
+        width: 300%;
+        padding:1.5rem 1rem;
+        font-size: 1rem;
+    }
+    .contactInput button {
+        margin-bottom: 5rem;
+        padding:1rem 2rem;
+    }
 }
