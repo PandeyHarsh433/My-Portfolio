@@ -16,7 +16,7 @@ import Button from "@mui/material/Button";
 import { Link } from "react-scroll";
 
 const drawerWidth = 240;
-const navItems = ["Home", "Proficiency", "Projects", "Contact me"];
+const navItems = ["Home", "Proficiency", "Projects", "Contact me","Explore"];
 
 function DrawerAppBar(props) {
   const { window } = props;

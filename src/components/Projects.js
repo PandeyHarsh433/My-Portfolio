@@ -1,10 +1,21 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Tesla from "../assets/Tesla.png";
 import Imdb from "../assets/IMDB.png";
 import Twitter from "../assets/Twtter.png";
 import Admin from "../assets/Admin.png";
+import styled, { keyframes } from "styled-components";
+import { slideInLeft } from "react-animations";
 
 const Projects = () => {
+  const slideInLeftAnimation = keyframes`${slideInLeft}`;
+  const SlideDiv = styled.div`
+    animation: 2s ${slideInLeftAnimation};
+  `;
+
+  useEffect(()=>{
+
+  },[])
+
   return (
     <>
       <div className="both2" id="Projects">
@@ -26,7 +37,9 @@ const Projects = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <img src={Imdb} alt="" className="projectImg" />
+                <SlideDiv>
+                  <img src={Imdb} alt="" className="projectImg" />
+                </SlideDiv>
               </a>
             </div>
             <div className="projectImg">
@@ -35,7 +48,9 @@ const Projects = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <img src={Admin} alt="" className="projectImg" />
+                <SlideDiv>
+                  <img src={Admin} alt="" className="projectImg" />
+                </SlideDiv>
               </a>
             </div>
           </div>
@@ -46,7 +61,9 @@ const Projects = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <img src={Tesla} alt="" className="projectImg" />
+                <SlideDiv>
+                  <img src={Tesla} alt="" className="projectImg" />
+                </SlideDiv>
               </a>
             </div>
             <div className="projectImg">
@@ -55,7 +72,9 @@ const Projects = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <img src={Twitter} alt="" className="projectImg" />
+                <SlideDiv>
+                  <img src={Twitter} alt="" className="projectImg" />
+                </SlideDiv>
               </a>
             </div>
           </div>

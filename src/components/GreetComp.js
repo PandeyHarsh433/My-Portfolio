@@ -1,30 +1,41 @@
 import React from "react";
 import Typed from "react-typed";
+import shape from "../assets/shape.png";
 
 const GreetComp = () => {
   return (
-    <div className="greet" id="Home">
-      <div className="introContainer">
-        <div>
-          <Typed
-            strings={["Hello , I am Harsh Pandey"]}
-            typeSpeed={250}
-            showCursor={true}
-          />
+    <>
+      <div className="greet" id="Home">
+        <div className="introContainer">
+          <div>
+            <Typed
+              strings={["Hello , I am Harsh Pandey"]}
+              typeSpeed={100}
+              showCursor={false}
+            />
+          </div>
+          <div>
+            <Typed
+              strings={["I am a Web developer..!"]}
+              typeSpeed={180}
+              backSpeed={150}
+              showCursor={false}
+              loop
+            />
+          </div>
         </div>
         <div>
-          <Typed
-            strings={["I am a Web developer..!"]}
-            typeSpeed={180}
-            backSpeed={150}
-            loop
+          <img src={shape} alt="" className="shapeImg" />
+        </div>
+        <div className="imgContainer">
+          <img
+            src={require("./../assets/myimg2.png")}
+            alt=""
+            className="myImg"
           />
         </div>
       </div>
-      <div className="imgContainer">
-        <img src={require("./../assets/myimg2.png")} alt="" />
-      </div>
-    </div>
+    </>
   );
 };
 
