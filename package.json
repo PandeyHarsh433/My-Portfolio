@@ -1,13 +1,13 @@
 {
   "name": "nextjs-portfolio-template",
   "version": "0.1.0",
-  "description": "A simple to use portfolio website template for all developers out there!",
-  "author": "Asavari Ambavane",
+  "description": "Portfolio",
+  "author": "Harsh Pandey",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "build": "next build --openssl-legacy-provider build",
+    "start": "next start --openssl-legacy-provider start",
     "lint": "next lint"
   },
   "repository": {
@@ -15,11 +15,7 @@
     "url": ""
   },
   "keywords": [
-    "portfolio",
-    "template",
-    "easy",
-    "nextjs",
-    "fully customisable"
+    "portfolio"
   ],
   "dependencies": {
     "@chakra-ui/icons": "^1.0.13",
