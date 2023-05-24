@@ -5,11 +5,6 @@
   <p align="center">
     Portfolio website template!
     <br />
-    <a href="https://michaelscott-nextjstemp.vercel.app/">View Demo</a>
-    ·
-    <a href="https://github.com/AsavariA/nextjs-portfolio-template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/AsavariA/nextjs-portfolio-template/issues">Request Feature</a>
   </p>
 </p>
 
@@ -75,8 +70,7 @@ Making a Portfolio website from scratch can be a tedious process. This repositor
 🔧 [Chakra UI](https://chakra-ui.com/)
 
 ### Demos
-To view a demo, [click here](https://michaelscott-nextjstemp.vercel.app/)\
-To view a live example, [click here](https://asavariambavane.vercel.app/)
+To view a live demo, [click here](https://pandey-harsh-c2049f.netlify.app/)\
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -94,7 +88,7 @@ npm - Latest version of npm works the best with this project. Run the following 
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/AsavariA/nextjs-portfolio-template.git
+   git clone https://github.com/PandeyHarsh433/My-Portfolio
    ```
 2. Install NPM packages
    ```sh
@@ -214,9 +208,5 @@ Contributions are what make the open source community such an amazing place to b
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License.
 
 
