@@ -138,7 +138,7 @@ export const userinfo = {
   },
   blogs: {
     //set this to false if you want to omit this section
-    visible: false,
+    visible: true,
   },
 };
 
