@@ -22,7 +22,7 @@ export const projects = [
     name: "Movie-Searching",
     description:
       "This website is a platform built using ReactJS that allows users to browse and search for movies. The platform is designed to mimic the functionality of the popular movie database website, IMDB, with a sleek and user-friendly interface.To provide users with access to the latest movies and information, the platform fetches online movie data using the fetch() method. This allows the platform to quickly and easily retrieve information on new movies, ratings, reviews, and more.",
-    githubLink: "https://github.com/PandeyHarsh433/IMDB-clone",
+    githubLink: "https://github.com/PandeyHarsh433/movie_website",
     projectLink: "https://movie-website-iota.vercel.app/",
     tech: ["Reactjs", "API handling"],
     photo: [Project3],
@@ -32,7 +32,7 @@ export const projects = [
     description:
       "Crafted captivating frontend design for seamless UX, ensuring an immersive user experience.Developed dynamic pages with MongoDB integration, allowing for flexible and interactive content.Implemented a secure authentication system using Next.js and Express, ensuring user privacy and data protection.Efficient state management achieved through Redux integration, enhancing the overall performance of the application.",
     githubLink: "https://github.com/PandeyHarsh433/Shopping-Website",
-    projectLink: "https://github.com/PandeyHarsh433/news-website",
+    projectLink: "https://github.com/PandeyHarsh433/Shopping-Website",
     tech: ["Nextjs", "Redux", "Nodejs", "Mongodb", "Express"],
     photo: [Project4],
   },
