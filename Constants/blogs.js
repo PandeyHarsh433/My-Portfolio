@@ -1,38 +1,14 @@
-import blog from "../styles/projects/blog.jpg";
+import blog1 from "../styles/projects/blog1.jpg";
 
 export const custom_blogs = [
   // please add only upto 6 blogs for maintaining the ui
   {
-    title: "Blog Tilte", //blog title
+    title: "Pre-Interview talk", //blog title
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum", //blog decription
-    link: "www.google.com", //link your blog here
-    thumbnail: blog, //blog image, can be an import or link
-    categories: ["jim", "pam", "dwight"], //eg. web developement, prgramming, lifestyle etc.
-  },
-  {
-    title: "Blog Tilte",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum",
-    link: "www.google.com",
-    thumbnail: blog,
-    categories: ["jim", "pam", "dwight"],
-  },
-  {
-    title: "Blog Tilte",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum",
-    link: "www.google.com",
-    thumbnail: blog,
-    categories: ["jim", "pam", "dwight"],
-  },
-  {
-    title: "Blog Tilte",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum",
-    link: "www.google.com",
-    thumbnail: blog,
-    categories: ["jim", "pam", "dwight"],
+      "A nervous job interviewee shares their thoughts on the importance of being yourself, handling pressure, and taking the first step towards your goals.", //blog decription
+    link: "https://techmaverick.hashnode.dev/pre-interview-talk", //link your blog here
+    thumbnail: blog1,
+    categories: ["web-dev", "interview", "first-blog"], //eg. web developement, prgramming, lifestyle etc.
   },
 ];
 
