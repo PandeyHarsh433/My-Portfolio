@@ -4,12 +4,12 @@
   "description": "Portfolio",
   "author": "Harsh Pandey",
   "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build --openssl-legacy-provider build",
-    "start": "next start --openssl-legacy-provider start",
-    "lint": "next lint"
-  },
+ "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
   "repository": {
     "type": "git",
     "url": ""
