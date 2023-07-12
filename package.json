@@ -1,15 +1,15 @@
 {
   "name": "nextjs-portfolio-template",
   "version": "0.1.0",
-  "description": "A simple to use portfolio website template for all developers out there!",
-  "author": "Asavari Ambavane",
+  "description": "A simple portfolio website",
+  "author": "Harsh Pandey",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
   "repository": {
     "type": "git",
     "url": ""
