@@ -30,10 +30,10 @@ export const projects = [
   {
     name: "Shopping Website",
     description:
-      "Crafted captivating frontend design for seamless UX, ensuring an immersive user experience.Developed dynamic pages with MongoDB integration, allowing for flexible and interactive content.Implemented a secure authentication system using Next.js and Express, ensuring user privacy and data protection.Efficient state management achieved through Redux integration, enhancing the overall performance of the application.",
-    githubLink: "https://github.com/PandeyHarsh433/Shopping-Website",
-    projectLink: "https://github.com/PandeyHarsh433/Shopping-Website",
-    tech: ["Nextjs", "Redux", "Nodejs", "Mongodb", "Express"],
+      "Crafted captivating frontend design for seamless UX, ensuring an immersive user experience.Developed dynamic pages by fetching api's and allowing for flexible and interactive content.Efficient state management achieved through Redux toolkit integration, enhancing the overall performance of the application.",
+    githubLink: "https://github.com/PandeyHarsh433/de-Shop",
+    projectLink: "https://keen-faloodeh-579db6.netlify.app/",
+    tech: ["Reactjs", "Redux-tookit",],
     photo: [Project4],
   },
   {
