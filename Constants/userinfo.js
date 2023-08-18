@@ -33,7 +33,7 @@ export const userinfo = {
     },
     {
       type: "twitter",
-      link: "https://twitter.com/HarshPa58163449",
+      link: "https://twitter.com/pa57536222",
       icon: faTwitter,
     },
     {
@@ -59,11 +59,11 @@ export const userinfo = {
     //For aesthetics, it is advisable for you to keep similar number of skills in each category
     {
       category: "Coding", // eg.frontend, backend, devops etc
-      skills: ["Java", "C++", "Python"], //eg. react, html, python etc.
+      skills: ["Java", "C++", "Javascript","Typescript"], //eg. react, html, python etc.
     },
     {
       category: "Frontend",
-      skills: ["React", "Next", "Angular"],
+      skills: ["React", "Next", "Redux Toolkit"],
     },
     {
       category: "Backend",
