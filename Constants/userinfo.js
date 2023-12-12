@@ -79,7 +79,7 @@ export const userinfo = {
     content:
       "As a full-stack web developer and Java coder, I possess a wide range of technical skills that enable me to create high-quality web applications. I am also an avid reader and enjoy traveling, which has broadened my perspective and given me a better understanding of different cultures. With excellent time management skills and strong communication abilities, I am able to effectively manage projects and collaborate with others. Additionally, I have an entrepreneurial mindset and am always looking for ways to turn my ideas into successful ventures.",
     resume:
-      "https://drive.google.com/file/d/1v_24dBWS90MhzmcVKK6e-VJlBI17XrDz/view?usp=sharing", //link your resume here. it can be drive link or any other link
+      "https://drive.google.com/file/d/1Aix7APO_SrJtToCmZhAppw55sTE9WZOh/view", //link your resume here. it can be drive link or any other link
   },
   education: {
     visible: true, //set this to false if you want to omit this section
